@@ -1,4 +1,4 @@
-![Stacked Blocks](https://i.imgur.com/8hNdx2J.png)
+![Stacked Blocks](https://cdn.modrinth.com/data/LQlQFBH9/images/63094b4b88c4f5123af0bcd24ef4f741b1224ee5.png)
 
 ***
 

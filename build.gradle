@@ -1,111 +1,149 @@
 plugins {
-	id 'fabric-loom' version '0.12-SNAPSHOT'
-	id 'maven-publish'
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+version = mod_version
+group = 'com.axperty.stackedblocksfarmersdelight'
+archivesBaseName = modid
 
-archivesBaseName = project.archives_base_name
-version = project.mod_version
-group = project.maven_group
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    mappings channel: 'parchment', version: '2022.11.27-1.19.2'
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'stackedblocksfarmersdelight'
+
+            mods {
+                stackedblocksfarmersdelight {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'stackedblocksfarmersdelight'
+
+            mods {
+                stackedblocksfarmersdelight {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        gameTestServer {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            property 'forge.enabledGameTestNamespaces', 'stackedblocksfarmersdelight'
+
+            mods {
+                stackedblocksfarmersdelight {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            args '--mod', 'stackedblocksfarmersdelight', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                stackedblocksfarmersdelight {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-	maven { url 'https://maven.shedaniel.me/' }
-	maven { url 'https://www.cursemaven.com' }
+    maven {
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "curse.maven:stacked-blocks-1144737:5999177"
-	modImplementation "curse.maven:farmers-delight-fabric-482834:4939667"
+    minecraft 'net.minecraftforge:forge:1.19.2-43.1.0'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation fg.deobf("curse.maven:stacked-blocks-1144737:5999180")
+    implementation fg.deobf("curse.maven:farmers-delight-398521:5051241")
 }
 
-processResources {
-	inputs.property "version", project.version
-
-	filesMatching("fabric.mod.json") {
-		expand "version": project.version
-	}
-}
-
-tasks.withType(JavaCompile).configureEach {
-	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
-	it.options.release = 17
-}
-
-java {
-	withSourcesJar()
+mixin {
+    // MixinGradle Settings
 }
 
 jar {
-	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}"}
-	}
+    manifest {
+        attributes([
+                "Specification-Title"     : "stackedblocksfarmersdelight",
+                "Specification-Vendor"    : "axperty",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "axperty",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
 }
+
+jar.finalizedBy('reobfJar')
 
 publishing {
-	publications {
-		mavenJava(MavenPublication) {
-			from components.java
-		}
-	}
-
-	repositories {
-
-	}
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
 }
 
-var env = System.getenv()
-var modLoader = name
-
-var changelogFile = rootProject.file("changelog.md")
-var changelogText = changelogFile.exists() ? changelogFile.text : ""
-
-if (env.MODRINTH_TOKEN) {
-	modrinth {
-		projectId = modrinth_project_id
-		versionName = "Stacked Blocks ${mod_version.split("-")[1]} - ${minecraft_version}"
-		uploadFile = tasks.remapJar
-		gameVersions = [minecraft_version]
-		loaders = ["fabric"]
-		changelog = changelogText
-		versionNumber = mod_version
-		versionType = "release"
-
-		dependencies {
-			required.project "fabric-api"
-			required.project "farmers-delight-fabric"
-			optional.project "more-delight"
-			optional.project "storage-delight"
-		}
-	}
-}
-
-if (env.CURSEFORGE_TOKEN) {
-	curseforge {
-		apiKey = env.CURSEFORGE_TOKEN
-		project {
-			id = project_id
-			changelog = changelogText
-			changelogType = 'markdown'
-			releaseType = 'release'
-			addGameVersion minecraft_version
-			addGameVersion "Fabric"
-
-			mainArtifact(tasks.remapJar) {
-				displayName = "Stacked Blocks ${mod_version.split("-")[1]} - ${minecraft_version}"
-			}
-
-			relations {
-				requiredDependency "fabric-api"
-				requiredDependency "farmers-delight-fabric"
-				optionalDependency "more-delight-fabric"
-				optionalDependency "storage-delight-fabric"
-			}
-		}
-	}
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
 }

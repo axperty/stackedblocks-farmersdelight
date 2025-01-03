@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT"
+
+[[mods]]
+    modId="stackedblocksfarmersdelight"
+    version="25.01.03-1.19-forge"
+    displayName="Stacked Blocks: Farmer's Delight"
+    authors="Axperty"
+    description="A mod that adds compatibility between Stacked Blocks and Farmer's Delight."
+    logoFile="assets/stackedblocksfarmersdelight/logo.png"
+
+[[dependencies.stackedblocksfarmersdelight]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stackedblocksfarmersdelight]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stackedblocksfarmersdelight]]
+    modId="stackedblocks"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.stackedblocksfarmersdelight]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

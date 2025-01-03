@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "stackedblocksfarmersdelight",
-  "version": "25.01.03-1.20-fabric",
+  "version": "25.01.03-1.19-fabric",
   "name": "Stacked Blocks: Farmer's Delight",
   "description": "A mod that adds compatibility between Stacked Blocks and Farmer's Delight.",
   "authors": [
@@ -10,7 +10,7 @@
   "contact": {
     "homepage": "https://www.curseforge.com/members/axperty/projects"
   },
-  "license": "MIT",
+  "license": "MIT License",
   "icon": "assets/stackedblocksfarmersdelight/logo.png",
   "environment": "*",
   "entrypoints": {
@@ -19,9 +19,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": ">=1.20",
+    "minecraft": ">=1.19",
     "java": ">=17",
     "stackedblocks": "*",
     "farmersdelight": "*"

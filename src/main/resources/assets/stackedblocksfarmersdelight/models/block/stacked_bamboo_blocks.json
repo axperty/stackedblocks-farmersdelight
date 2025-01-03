@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "stackedblocksfarmersdelight:block/stacked_bamboo_blocks_side",
-    "bottom": "stackedblocksfarmersdelight:block/stacked_bamboo_blocks_bottom",
-    "top": "stackedblocksfarmersdelight:block/stacked_bamboo_blocks_top"
-  }
-}

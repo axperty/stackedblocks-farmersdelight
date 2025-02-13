@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Terre Riche empilée",
 
-  "itemGroup.stackedblocksfarmersdelight": "Blocs empilés"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Blocs de fer brut empilés",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Blocs d'or brut empilés",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Blocs de cuivre brut empilés",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Planches d'acacia empilées",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Planches de bambou empilées",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Planches de bouleau empilées",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Planches de cerisier empilées",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Planches carmin empilées",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Planches de chêne noir empilées",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Planches de jungle empilées",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Planches de palétuvier empilées",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Planches de chêne empilées",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Planches de chêne clair empilées",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Planches d'épicéa empilées",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Planches gauchies empilées",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

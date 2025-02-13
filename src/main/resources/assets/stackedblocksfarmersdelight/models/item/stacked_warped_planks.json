@@ -1,0 +1,6 @@
+{
+  "parent": "stackedblocksfarmersdelight:block/stacked_warped_planks",
+  "textures": {
+    "layer0": "stackedblocksfarmersdelight:item/stacked_warped_planks"
+  }
+}

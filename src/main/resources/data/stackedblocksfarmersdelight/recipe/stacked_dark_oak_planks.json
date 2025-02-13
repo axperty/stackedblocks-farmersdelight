@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "stacked_dark_oak_planks",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "R": {
+      "item": "farmersdelight:rope"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblocksfarmersdelight:stacked_dark_oak_planks"
+  }
+}

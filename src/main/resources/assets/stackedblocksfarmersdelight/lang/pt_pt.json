@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Solo Fértil Empilhado",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Blocos de ferro bruto empilhados",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Blocos de ouro bruto empilhados",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Blocos de cobre bruto empilhados",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Tábuas de acácia empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Tábuas de bambu empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Tábuas de bétula empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Tábuas de cerejeira empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Tábuas carmesim empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Tábuas de carvalho-escuro empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Tábuas de selva empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Tábuas de mangue empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Tábuas de carvalho empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Tábuas de carvalho pálido empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Tábuas de pinheiro empilhadas",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Tábuas retorcidas empilhadas",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

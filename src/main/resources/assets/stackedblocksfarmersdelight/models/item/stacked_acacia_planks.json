@@ -1,0 +1,6 @@
+{
+  "parent": "stackedblocksfarmersdelight:block/stacked_acacia_planks",
+  "textures": {
+    "layer0": "stackedblocksfarmersdelight:item/stacked_acacia_planks"
+  }
+}

@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Gestapelte nahrhafte Erde",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Gestapelte Roheisenblöcke",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Gestapelte Rohgoldblöcke",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Gestapelte Rohkupferblöcke",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Gestapelte Akazienholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Gestapelte Bambusbretter",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Gestapelte Birkenholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Gestapelte Kirschholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Gestapelte Purpurholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Gestapelte Dunkelholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Gestapelte Dschungelholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Gestapelte Mangrovenholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Gestapelte Eichenholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Gestapelte Blasse Eichenholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Gestapelte Fichtenholzbretter",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Gestapelte Krummholzbretter",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

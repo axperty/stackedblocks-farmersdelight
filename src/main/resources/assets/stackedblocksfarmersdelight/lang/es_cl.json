@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Tierra fértil apilada",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Bloques de hierro crudo apilados",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Bloques de oro crudo apilados",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Bloques de cobre crudo apilados",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Tablones de acacia apilados",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Tablones de bambú apilados",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Tablones de abedul apilados",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Tablones de cerezo apilados",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Tablones carmesí apilados",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Tablones de roble oscuro apilados",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Tablones de jungla apilados",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Tablones de mangle apilados",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Tablones de roble apilados",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Tablones de roble pálido apilados",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Tablones de abeto apilados",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Tablones deformados apilados",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

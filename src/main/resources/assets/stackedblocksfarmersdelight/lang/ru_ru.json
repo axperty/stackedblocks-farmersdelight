@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Уложенная плодородная почва",
 
-  "itemGroup.stackedblocksfarmersdelight": "Сложенные Блоки"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Сложенные блоки сырого железа",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Сложенные блоки сырого золота",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Сложенные блоки сырой меди",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Сложенные доски из акации",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Сложенные бамбуковые доски",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Сложенные березовые доски",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Сложенные вишневые доски",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Сложенные багровые доски",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Сложенные доски из темного дуба",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Сложенные доски из джунглей",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Сложенные мангровые доски",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Сложенные дубовые доски",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Сложенные бледные дубовые доски",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Сложенные еловые доски",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Сложенные искривленные доски",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

@@ -20,7 +20,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "curse.maven:stacked-blocks-1144737:5999177"
+    modImplementation "curse.maven:stacked-blocks-1144737:6189775"
 	modImplementation "curse.maven:farmers-delight-fabric-482834:4939667"
 }
 

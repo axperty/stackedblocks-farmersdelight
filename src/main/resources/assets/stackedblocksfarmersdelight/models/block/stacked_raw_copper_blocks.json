@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "stackedblocksfarmersdelight:block/stacked_raw_copper_blocks_side",
+    "bottom": "stackedblocksfarmersdelight:block/stacked_raw_copper_blocks_bottom",
+    "top": "stackedblocksfarmersdelight:block/stacked_raw_copper_blocks_top"
+  }
+}

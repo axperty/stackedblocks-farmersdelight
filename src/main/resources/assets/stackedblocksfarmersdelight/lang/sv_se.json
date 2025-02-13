@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Staplad Rik Jord",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Staplade råjärnsblock",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Staplade råguldblock",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Staplade råkopparblock",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Staplade akaciabrädor",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Staplade bambubrädor",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Staplade björkbrädor",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Staplade körsbärsbrädor",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Staplade karmosinbrädor",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Staplade mörk-eksbrädor",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Staplade djungelbrädor",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Staplade mangroveträbrädor",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Staplade ekbrädor",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Staplade bleka ekbrädor",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Staplade granbrädor",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Staplade skeva brädor",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

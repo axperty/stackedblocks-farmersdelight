@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Stakigita Riĉa Tero",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Stakitaj Krudferaj Blokoj",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Stakitaj Krudoraj Blokoj",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Stakitaj Krudkuproblokoj",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Stakitaj Akaciaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Stakitaj Bambuaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Stakitaj Betulaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Stakitaj Ĉerizaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Stakitaj Purpuraj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Stakitaj Malhelaj Kverkaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Stakitaj Ĝangalaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Stakitaj Mangrovaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Stakitaj Kverkaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Stakitaj Palaj Kverkaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Stakitaj Piceaj Lignotabuloj",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Stakitaj Misformaj Lignotabuloj",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

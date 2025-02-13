@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "積み重ねられた肥沃な土",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "積み重ねられた生の鉄ブロック",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "積み重ねられた生の金ブロック",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "積み重ねられた生の銅ブロック",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "積み重ねられたアカシアの板材",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "積み重ねられた竹の板材",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "積み重ねられたシラカバの板材",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "積み重ねられたサクラの板材",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "積み重ねられたクリムゾンの板材",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "積み重ねられたダークオークの板材",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "積み重ねられたジャングルの板材",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "積み重ねられたマングローブの板材",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "積み重ねられたオークの板材",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "積み重ねられた薄いオークの板材",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "積み重ねられたトウヒの板材",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "積み重ねられた歪んだ板材",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

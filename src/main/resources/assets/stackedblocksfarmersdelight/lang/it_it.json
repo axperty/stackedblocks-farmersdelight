@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Terreno ricco impilato",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Blocchi di ferro grezzo impilati",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Blocchi di oro grezzo impilati",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Blocchi di rame grezzo impilati",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Assi di acacia impilate",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Assi di bambù impilate",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Assi di betulla impilate",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Assi di ciliegio impilate",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Assi cremisi impilate",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Assi di quercia scura impilate",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Assi della giungla impilate",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Assi di mangrovia impilate",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Assi di quercia impilate",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Assi di quercia chiara impilate",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Assi di abete impilate",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Assi deformate impilate",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

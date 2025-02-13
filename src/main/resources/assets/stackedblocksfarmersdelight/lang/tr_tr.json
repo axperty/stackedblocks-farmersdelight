@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Yığılmış Verimli Toprak",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Yığılmış Ham Demir Blokları",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Yığılmış Ham Altın Blokları",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Yığılmış Ham Bakır Blokları",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Yığılmış Akasya Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Yığılmış Bambu Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Yığılmış Huş Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Yığılmış Kiraz Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Yığılmış Koyu Kırmızı Kalaslar",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Yığılmış Koyu Meşe Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Yığılmış Orman Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Yığılmış Mangrov Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Yığılmış Meşe Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Yığılmış Soluk Meşe Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Yığılmış Ladin Kalasları",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Yığılmış Eğri Kalaslar",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

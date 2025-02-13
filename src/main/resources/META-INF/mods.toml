@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
     modId="stackedblocksfarmersdelight"
-    version="25.01.03-1.19-forge"
+    version="25.02.13-1.19-forge"
     displayName="Stacked Blocks: Farmer's Delight"
     authors="Axperty"
     description="A mod that adds compatibility between Stacked Blocks and Farmer's Delight."

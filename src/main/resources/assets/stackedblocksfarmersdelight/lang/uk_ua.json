@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Складений Родючий Ґрунт",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Складені блоки сирого заліза",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Складені блоки сирого золота",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Складені блоки сирої міді",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Складені дошки з акації",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Складені бамбукові дошки",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Складені березові дошки",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Складені вишневі дошки",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Складені малинові дошки",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Складені дошки з темного дуба",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Складені дошки з джунглів",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Складені мангрові дошки",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Складені дубові дошки",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Складені бліді дубові дошки",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Складені ялинові дошки",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Складені викривлені дошки",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

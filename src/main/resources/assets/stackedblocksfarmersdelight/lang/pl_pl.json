@@ -45,5 +45,21 @@
 
   "block.stackedblocksfarmersdelight.stacked_rich_soil": "Ułożona Bogata Gleba",
 
-  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks"
+  "block.stackedblocksfarmersdelight.stacked_raw_iron_blocks": "Ułożone bloki surowego żelaza",
+  "block.stackedblocksfarmersdelight.stacked_raw_gold_blocks": "Ułożone bloki surowego złota",
+  "block.stackedblocksfarmersdelight.stacked_raw_copper_blocks": "Ułożone bloki surowej miedzi",
+  "block.stackedblocksfarmersdelight.stacked_acacia_planks": "Ułożone deski akacjowe",
+  "block.stackedblocksfarmersdelight.stacked_bamboo_planks": "Ułożone deski bambusowe",
+  "block.stackedblocksfarmersdelight.stacked_birch_planks": "Ułożone deski brzozowe",
+  "block.stackedblocksfarmersdelight.stacked_cherry_planks": "Ułożone deski wiśniowe",
+  "block.stackedblocksfarmersdelight.stacked_crimson_planks": "Ułożone szkarłatne deski",
+  "block.stackedblocksfarmersdelight.stacked_dark_oak_planks": "Ułożone deski z ciemnego dębu",
+  "block.stackedblocksfarmersdelight.stacked_jungle_planks": "Ułożone deski z dżungli",
+  "block.stackedblocksfarmersdelight.stacked_mangrove_planks": "Ułożone deski namorzynowe",
+  "block.stackedblocksfarmersdelight.stacked_oak_planks": "Ułożone deski dębowe",
+  "block.stackedblocksfarmersdelight.stacked_pale_oak_planks": "Ułożone blade dębowe deski",
+  "block.stackedblocksfarmersdelight.stacked_spruce_planks": "Ułożone deski świerkowe",
+  "block.stackedblocksfarmersdelight.stacked_warped_planks": "Ułożone wypaczone deski",
+
+  "itemGroup.stackedblocksfarmersdelight": "Stacked Blocks: Farmer's Delight"
 }

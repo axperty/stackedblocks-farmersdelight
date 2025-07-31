@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "stackedblocksfarmersdelight:stacked_cherry_logs"
-    }
+    "stackedblocksfarmersdelight:stacked_cherry_logs"
   ],
   "result": {
     "count": 8,

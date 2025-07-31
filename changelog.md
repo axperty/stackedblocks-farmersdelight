@@ -4,11 +4,7 @@
 
 ### ✨ What's New:
 
-- Crafting with Rope:
-  - Stackable blocks can now be crafted using rope from Farmer's Delight as an alternative to lead.
-
-- Material Specific Drops:
-  - Blocks crafted with rope drop rope when broken, while those crafted with lead drop lead.
+- Added support for Minecraft 1.21.5-1.21.7.
 
 ***
 

@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:raw_iron_block"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:raw_iron_block",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

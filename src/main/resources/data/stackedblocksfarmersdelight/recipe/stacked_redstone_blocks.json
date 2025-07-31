@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_block"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:redstone_block",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

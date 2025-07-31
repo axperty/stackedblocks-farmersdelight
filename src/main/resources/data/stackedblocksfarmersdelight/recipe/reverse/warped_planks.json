@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "stackedblocksfarmersdelight:stacked_warped_planks"
-    }
+    "stackedblocksfarmersdelight:stacked_warped_planks"
   ],
   "result": {
     "count": 8,

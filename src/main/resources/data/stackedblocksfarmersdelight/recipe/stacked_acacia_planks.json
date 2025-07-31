@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:acacia_planks"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:acacia_planks",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

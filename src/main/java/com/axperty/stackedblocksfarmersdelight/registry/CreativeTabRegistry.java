@@ -86,6 +86,6 @@ public class CreativeTabRegistry {
                     .build());
 
     public static void registerItemGroups() {
-        StackedBlocksFarmersDelight.LOGGER.info("Registering Item Groups for " + StackedBlocksFarmersDelight.MODID);
+        StackedBlocksFarmersDelight.LOGGER.info("Registering item groups for " + StackedBlocksFarmersDelight.MODID);
     }
 }

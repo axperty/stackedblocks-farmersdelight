@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "stackedblocksfarmersdelight:stacked_coal_blocks"
-    }
+    "stackedblocksfarmersdelight:stacked_coal_blocks"
   ],
   "result": {
     "count": 8,

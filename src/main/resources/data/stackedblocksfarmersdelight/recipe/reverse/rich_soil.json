@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "stackedblocksfarmersdelight:stacked_rich_soil"
-    }
+    "stackedblocksfarmersdelight:stacked_rich_soil"
   ],
   "result": {
     "count": 8,

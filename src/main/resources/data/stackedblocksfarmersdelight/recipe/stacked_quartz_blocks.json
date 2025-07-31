@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:quartz_block"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:quartz_block",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:cherry_planks"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:cherry_planks",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

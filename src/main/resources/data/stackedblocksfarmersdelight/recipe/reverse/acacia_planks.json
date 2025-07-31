@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "stackedblocksfarmersdelight:stacked_acacia_planks"
-    }
+    "stackedblocksfarmersdelight:stacked_acacia_planks"
   ],
   "result": {
     "count": 8,

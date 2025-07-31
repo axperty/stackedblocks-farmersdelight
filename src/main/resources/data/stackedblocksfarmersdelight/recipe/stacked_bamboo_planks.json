@@ -8,12 +8,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bamboo_planks"
-    },
-    "R": {
-      "item": "farmersdelight:rope"
-    }
+    "#": "minecraft:bamboo_planks",
+    "R": "farmersdelight:rope"
   },
   "result": {
     "count": 1,

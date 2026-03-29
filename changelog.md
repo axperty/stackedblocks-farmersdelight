@@ -4,7 +4,7 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.5-1.21.7.
+- Added support for Minecraft 21.6.
 
 ***
 

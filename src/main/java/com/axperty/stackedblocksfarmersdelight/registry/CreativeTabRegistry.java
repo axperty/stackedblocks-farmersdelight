@@ -1,8 +1,6 @@
 package com.axperty.stackedblocksfarmersdelight.registry;
 
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
-import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -13,7 +11,7 @@ import com.axperty.stackedblocksfarmersdelight.StackedBlocksFarmersDelight;
 
 public class CreativeTabRegistry {
     public static final CreativeModeTab STACKEDBLOCKSFARMERSDELIGHT_ITEMGROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.tryParse(StackedBlocksFarmersDelight.MODID + ":" + "stackedblocksfarmersdelight_itemgroup"),
+            Identifier.tryParse(StackedBlocksFarmersDelight.MOD_ID + ":" + "stackedblocksfarmersdelight_itemgroup"),
             FabricCreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.stackedblocksfarmersdelight"))
                     .icon(() -> new ItemStack(BlockRegistry.STACKED_RICH_SOIL))
@@ -24,6 +22,11 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.STACKED_COBBLESTONE_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_NETHERRACK_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_BRICKS);
+                        entries.accept(BlockRegistry.STACKED_RESIN_BLOCKS);
+                        entries.accept(BlockRegistry.STACKED_RESIN_BRICKS);
+                        entries.accept(BlockRegistry.STACKED_MELONS);
+                        entries.accept(BlockRegistry.STACKED_PUMPKINS);
+
                         entries.accept(BlockRegistry.STACKED_RAW_IRON_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_RAW_GOLD_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_RAW_COPPER_BLOCKS);
@@ -37,9 +40,6 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.STACKED_DIAMOND_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_NETHERITE_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_QUARTZ_BLOCKS);
-                        entries.accept(BlockRegistry.STACKED_MELONS);
-                        entries.accept(BlockRegistry.STACKED_PUMPKINS);
-
 
                         entries.accept(BlockRegistry.STACKED_OAK_LOGS);
                         entries.accept(BlockRegistry.STACKED_STRIPPED_OAK_LOGS);
@@ -73,6 +73,10 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.STACKED_STRIPPED_CHERRY_LOGS);
                         entries.accept(BlockRegistry.STACKED_CHERRY_PLANKS);
 
+                        entries.accept(BlockRegistry.STACKED_PALE_OAK_LOGS);
+                        entries.accept(BlockRegistry.STACKED_STRIPPED_PALE_OAK_LOGS);
+                        entries.accept(BlockRegistry.STACKED_PALE_OAK_PLANKS);
+
                         entries.accept(BlockRegistry.STACKED_BAMBOO_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_STRIPPED_BAMBOO_BLOCKS);
                         entries.accept(BlockRegistry.STACKED_BAMBOO_PLANKS);
@@ -87,7 +91,5 @@ public class CreativeTabRegistry {
                     })
                     .build());
 
-    public static void registerItemGroups() {
-        StackedBlocksFarmersDelight.LOGGER.info("Registering creative mode tab for " + StackedBlocksFarmersDelight.MODID);
-    }
+    public static void registerItemGroups() {}
 }

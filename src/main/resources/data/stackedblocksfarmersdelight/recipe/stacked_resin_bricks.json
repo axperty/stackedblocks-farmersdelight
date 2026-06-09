@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:resin_bricks",
+    "R": "farmersdelight:rope"
+  },
+  "result": {
+    "count": 1,
+    "id": "stackedblocksfarmersdelight:stacked_resin_bricks"
+  }
+}

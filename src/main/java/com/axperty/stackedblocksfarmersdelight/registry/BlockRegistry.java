@@ -3,7 +3,6 @@ package com.axperty.stackedblocksfarmersdelight.registry;
 import com.axperty.stackedblocksfarmersdelight.StackedBlocksFarmersDelight;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
@@ -31,6 +30,14 @@ public class BlockRegistry {
 
     // Stacked Bricks
     public static final Block STACKED_BRICKS = registerBlock("stacked_bricks", Block::new, Block.Properties.ofFullCopy(Blocks.BRICKS));
+
+    // Stacked Resin Blocks
+    public static final Block STACKED_RESIN_BLOCKS = registerBlock("stacked_resin_blocks",
+            Block::new, Block.Properties.ofFullCopy(Blocks.RESIN_BLOCK));
+
+    // Stacked Resin Bricks
+    public static final Block STACKED_RESIN_BRICKS = registerBlock("stacked_resin_bricks",
+            Block::new, Block.Properties.ofFullCopy(Blocks.RESIN_BRICKS));
 
     // Stacked Raw Iron Blocks
     public static final Block STACKED_RAW_IRON_BLOCKS = registerBlock("stacked_raw_iron_blocks", Block::new, Block.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK));
@@ -146,6 +153,18 @@ public class BlockRegistry {
     // Stacked Cherry Planks
     public static final Block STACKED_CHERRY_PLANKS = registerBlock("stacked_cherry_planks", Block::new, Block.Properties.ofFullCopy(Blocks.CHERRY_PLANKS));
 
+    // Stacked Pale Oak Logs
+    public static final Block STACKED_PALE_OAK_LOGS = registerBlock("stacked_pale_oak_logs",
+            Block::new, Block.Properties.ofFullCopy(Blocks.PALE_OAK_PLANKS));
+
+    // Stacked Stripped Pale Oak Logs
+    public static final Block STACKED_STRIPPED_PALE_OAK_LOGS = registerBlock("stacked_stripped_pale_oak_logs",
+            Block::new, Block.Properties.ofFullCopy(Blocks.PALE_OAK_PLANKS));
+
+    // Stacked Pale Oak Planks
+    public static final Block STACKED_PALE_OAK_PLANKS = registerBlock("stacked_pale_oak_planks",
+            Block::new, Block.Properties.ofFullCopy(Blocks.PALE_OAK_PLANKS));
+
     // Stacked Bamboo Blocks
     public static final Block STACKED_BAMBOO_BLOCKS = registerBlock("stacked_bamboo_blocks", Block::new, Block.Properties.ofFullCopy(Blocks.BAMBOO_PLANKS));
 
@@ -174,7 +193,7 @@ public class BlockRegistry {
     public static final Block STACKED_WARPED_PLANKS = registerBlock("stacked_warped_planks", Block::new, Block.Properties.ofFullCopy(Blocks.WARPED_PLANKS));
 
     private static Block registerBlock(String path, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings) {
-        final Identifier identifier = Identifier.fromNamespaceAndPath(StackedBlocksFarmersDelight.MODID, path);
+        final Identifier identifier = Identifier.fromNamespaceAndPath(StackedBlocksFarmersDelight.MOD_ID, path);
         final ResourceKey<Block> registryKey = ResourceKey.create(Registries.BLOCK, identifier);
         final Block block = factory.apply(settings.setId(registryKey));
         Registry.register(BuiltInRegistries.BLOCK, registryKey, block);
@@ -183,7 +202,7 @@ public class BlockRegistry {
     }
 
     public static Item registerItem(String path, Function<net.minecraft.world.item.Item.Properties, Item> factory, net.minecraft.world.item.Item.Properties settings) {
-        final ResourceKey<Item> registryKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(StackedBlocksFarmersDelight.MODID, path));
+        final ResourceKey<Item> registryKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(StackedBlocksFarmersDelight.MOD_ID, path));
         Item item = factory.apply(settings.setId(registryKey));
         if (item instanceof BlockItem blockItem) {
             blockItem.registerBlocks(Item.BY_BLOCK, item);
@@ -191,7 +210,5 @@ public class BlockRegistry {
         return Registry.register(BuiltInRegistries.ITEM, registryKey, item);
     }
 
-    public static void registerModBlocks() {
-        StackedBlocksFarmersDelight.LOGGER.info("Registering blocks for " + StackedBlocksFarmersDelight.MODID);
-    }
+    public static void registerModBlocks() {}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "stackedblocksfarmersdelight:block/stacked_resin_bricks",
+  "textures": {
+    "layer0": "stackedblocksfarmersdelight:item/stacked_resin_bricks"
+  }
+}

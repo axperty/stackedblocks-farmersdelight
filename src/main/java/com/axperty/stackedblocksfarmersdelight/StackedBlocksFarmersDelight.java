@@ -14,5 +14,6 @@ public class StackedBlocksFarmersDelight implements ModInitializer {
     public void onInitialize() {
         CreativeTabRegistry.registerItemGroups();
         BlockRegistry.registerModBlocks();
+        LOGGER.info("Stacked Blocks: Farmer's Delight loaded");
     }
 }

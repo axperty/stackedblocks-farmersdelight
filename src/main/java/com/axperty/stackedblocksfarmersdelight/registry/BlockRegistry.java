@@ -28,6 +28,14 @@ public class BlockRegistry {
     // Stacked Bricks
     public static final Block STACKED_BRICKS = registerBlock("stacked_bricks", Block::new, Block.Settings.copy(Blocks.BRICKS));
 
+    // Stacked Resin Blocks
+    public static final Block STACKED_RESIN_BLOCKS = registerBlock("stacked_resin_blocks",
+            Block::new, Block.Settings.copy(Blocks.RESIN_BLOCK));
+
+    // Stacked Resin Bricks
+    public static final Block STACKED_RESIN_BRICKS = registerBlock("stacked_resin_bricks",
+            Block::new, Block.Settings.copy(Blocks.RESIN_BRICKS));
+
     // Stacked Raw Iron Blocks
     public static final Block STACKED_RAW_IRON_BLOCKS = registerBlock("stacked_raw_iron_blocks", Block::new, Block.Settings.copy(Blocks.RAW_IRON_BLOCK));
 
@@ -142,6 +150,15 @@ public class BlockRegistry {
     // Stacked Cherry Planks
     public static final Block STACKED_CHERRY_PLANKS = registerBlock("stacked_cherry_planks", Block::new, Block.Settings.copy(Blocks.CHERRY_PLANKS));
 
+    // Stacked Pale Oak Logs
+    public static final Block STACKED_PALE_OAK_LOGS = registerBlock("stacked_pale_oak_logs", Block::new, Block.Settings.copy(Blocks.PALE_OAK_PLANKS));
+
+    // Stacked Stripped Pale Oak Logs
+    public static final Block STACKED_STRIPPED_PALE_OAK_LOGS = registerBlock("stacked_stripped_pale_oak_logs", Block::new, Block.Settings.copy(Blocks.PALE_OAK_PLANKS));
+
+    // Stacked Pale Oak Planks
+    public static final Block STACKED_PALE_OAK_PLANKS = registerBlock("stacked_pale_oak_planks", Block::new, Block.Settings.copy(Blocks.PALE_OAK_PLANKS));
+
     // Stacked Bamboo Blocks
     public static final Block STACKED_BAMBOO_BLOCKS = registerBlock("stacked_bamboo_blocks", Block::new, Block.Settings.copy(Blocks.BAMBOO_PLANKS));
 
@@ -182,7 +199,5 @@ public class BlockRegistry {
         return Items.register(registryKey, factory, settings);
     }
 
-    public static void registerModBlocks() {
-        StackedBlocksFarmersDelight.LOGGER.info("Registering mod blocks for " + StackedBlocksFarmersDelight.MODID);
-    }
+    public static void registerModBlocks() {}
 }

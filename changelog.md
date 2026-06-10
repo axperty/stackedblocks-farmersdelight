@@ -4,7 +4,11 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.5-1.21.7.
+- Added Stacked Pale Oak Logs.
+- Added Stacked Pale Oak Planks.
+- Added Stacked Stripped Pale Oak Logs.
+- Added Stacked Resin Blocks.
+- Added Stacked Resin Bricks.
 
 ***
 

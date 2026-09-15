@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_emerald_blocks"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_emerald_blocks"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_cobblestone_blocks"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_cobblestone_blocks"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

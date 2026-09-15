@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_melons"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_melons"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_stripped_warped_stems"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_stripped_warped_stems"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

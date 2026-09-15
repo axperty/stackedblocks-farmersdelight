@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_resin_bricks"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_resin_bricks"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

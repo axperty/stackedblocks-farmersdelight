@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_warped_planks"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_warped_planks"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

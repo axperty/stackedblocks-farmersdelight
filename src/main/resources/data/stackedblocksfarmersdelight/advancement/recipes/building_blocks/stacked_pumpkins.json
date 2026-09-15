@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_pumpkins"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_pumpkins"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

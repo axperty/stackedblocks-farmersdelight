@@ -32,7 +32,7 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	implementation "curse.maven:farmers-delight-refabricated-993166:7821199"
+	implementation "curse.maven:farmers-delight-refabricated-993166:8888310"
 	implementation "curse.maven:stacked-blocks-1144737:7814977"
 	implementation "curse.maven:jei-238222:8108850"
 

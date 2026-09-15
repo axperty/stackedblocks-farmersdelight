@@ -15,7 +15,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "stackedblocksfarmersdelight:stacked_rich_soil"
+        "recipes": [
+          "stackedblocksfarmersdelight:stacked_rich_soil"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }
